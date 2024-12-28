@@ -1,0 +1,37 @@
+<div class="auth-container">
+    <div class="auth-box">
+      <h2>Авторизация</h2>
+      
+        <div class="form-group">
+          <label for="username">Логин</label>
+          <input
+            pInputText
+            type="text"
+            id="username"
+            [(ngModel)]="login"
+            placeholder="Введите логин"
+            required
+          />
+        </div>
+  
+        <div class="form-group">
+          <label for="password">Пароль</label>
+          <input
+            pInputText
+            type="password"
+            id="password"
+            [(ngModel)]="password"
+            placeholder="Введите пароль"
+            required
+          />
+        </div>
+  
+        <button class="btn" (click)="onLogin()">Войти</button>
+        
+        <p class="redirect">
+          Нет аккаунта? <a href="/register">Зарегистрируйтесь</a>
+        </p>
+      
+    </div>
+  </div>
+  

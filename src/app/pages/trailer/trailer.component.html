@@ -1,0 +1,39 @@
+
+<!--<div class="someClass">
+    <ng-container *ngFor="let actor of actors">
+        <img [src]="actor.photo" width="100" height="150">
+        <p>{{ actor.name }}</p>
+    </ng-container>
+</div>-->
+
+
+<ng-container *ngIf="isLoaded">
+    <div class="video-container">
+        <video autoplay width="1440" height="600" controls>
+            <source [src]="'assets/video/' + movieCard.video" type="video/mp4">
+        </video>
+    </div>    
+</ng-container>
+
+<!-- <img [src]='"assets/posters/" + movieCard.image'> -->
+
+<h1 class="movie-name">{{movieCard.name}}</h1>
+<div class="panel-container">
+    <div class = "movie-panel">
+        <div class="text">{{movieCard.country}} | {{movieCard.time}} | {{movieCard.year}} | {{movieCard.age}} </div>  
+    </div> 
+</div>
+
+<div class="information-container">
+    <div class="description-container">
+        <div class="text">{{movieCard.description}}</div>
+        <!--<div class="text2">{{movieCard.rating}}</div>-->
+    </div>
+
+    <!-- {{movieCard.actorsnames}}
+    {{movieCard.actorsphotos}} -->
+
+</div>
+
+ 
+

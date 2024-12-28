@@ -1,0 +1,27 @@
+<section class="banner">
+  <div class="banner-content">
+      <h1>Смотреть<br>Восточные драмы</h1>
+      <p>Лучшие новинки востока</p>
+      <button (click) = "goToCatalog()" class="button" id="catalogButton">Каталог</button>
+  </div>
+</section>
+
+<h3>Рекомендации для вас</h3>
+<!--<app-carousel [movieCards] = "movieCards1" ></app-carousel>-->
+<div class = "movie-card-container">
+  <app-movie-card *ngFor = "let card of movieCards1" [card]="card"></app-movie-card>
+</div>
+
+<h3>С высоким рейтингом</h3>
+<!--<app-carousel [movieCards] = "movieCards2" ></app-carousel>-->
+<div class = "movie-card-container">
+  <app-movie-card *ngFor = "let card of movieCards2" [card]="card"></app-movie-card>
+</div>
+
+<!--<h3>Недавний релиз</h3>
+<div class = "movie-card-container">
+  <app-movie-card *ngFor = "let card of recentReleaseCinema" [card]="card"></app-movie-card>
+</div>-->
+
+
+

@@ -1,0 +1,75 @@
+body {
+    font-family: Noto Serif;
+    color: #fff;
+    background: linear-gradient(#34495C,#768491);
+  }
+
+.movie-name {
+    padding-left: 64px;
+    font-family: Noto Serif;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 32px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #FAEBD7;
+
+} 
+
+.text {
+    font-family: Noto Serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #fff;
+}
+
+.text2 {
+    font-family: Noto Serif;
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #FAEBD7;
+}
+
+.panel-container {
+    padding-left: 64px;
+}
+
+.information-container {
+    display: grid;
+    justify-content: space-between;
+    gap: 200px;
+    margin-left: 64px;
+    margin-right: 64px;
+    margin-bottom: 32px;
+}
+
+.description-container {
+    font-family: Noto Serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #fff;
+}
+
+.video-container {
+
+    width: 100%;
+    height: auto;
+    padding: 0;
+    margin-left: 15px;
+
+ 
+
+}
+

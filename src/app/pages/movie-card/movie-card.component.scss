@@ -1,0 +1,38 @@
+.movie-card {
+    padding: 1rem;
+    min-width: 150px;
+    cursor: pointer;
+}
+.movie-card img {
+	width: 200px;
+	height: 300px;
+	object-fit: cover;
+}
+
+.movie-card img:hover {
+    filter: brightness(0.7); /* Затемнение на 30% */
+}
+.movie-card span {
+    font-size: 1rem;
+    color: #DEA10F;
+}
+.movie-card p {
+    font-size: 1.25rem;
+    color: #fff;
+	max-width: 200px;
+	word-wrap: break-word;
+}
+.movie-link {
+    text-decoration: none; /* Убираем подчеркивание */
+
+}
+.text {
+    font-family: Noto Serif;
+    font-size: 23px;
+    font-weight: 700;
+    line-height: 23px;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #fff;
+}

@@ -1,0 +1,69 @@
+body {
+  font-family: Noto Serif;
+  color: #fff;
+  background: linear-gradient(#34495C,#768491);
+}
+
+.banner {
+  width: 100%; /* Полная ширина */
+  height: 503px; /* Высота изображения */
+  background-image: url('../../../assets/posters/banner.png'); /* Замените на путь к вашему изображению */
+  background-size: cover; /* Покрытие секции изображением */
+  background-position: center; /* Центрирование изображения */
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  position: relative;
+  margin-bottom: 70px;
+}
+
+.banner-content {
+  padding-left: 32px;
+  text-align: left;
+  color: white;
+
+  padding: 1rem;
+  margin-top: 270px;
+  margin-left: 32px;
+}
+
+.banner-content h1 {
+  font-size: 2.5rem;
+  margin-top: 10px;
+}
+
+.banner-content p {
+  font-size: 1.2rem;
+}
+
+.banner-content button {
+  color: #171412;
+  padding: 0.75rem 1.5rem;
+  background-color: #FFC026;
+  border: none;
+  cursor: pointer;
+  font-size: 1.125rem;
+  margin-top: 1rem;
+  margin-bottom: 40px;
+  
+}
+
+
+.banner-content button:hover {
+background-color: #ECAA0D;
+
+}
+
+h3 {
+  margin-bottom: 1rem;
+  margin-left: 120px;
+  font-size: 1.8rem;
+}
+
+.movie-card-container {
+  display: flex;            
+  flex-wrap: wrap;           /* Если карточек больше, чем может поместиться в строку, они перейдут на новую строку */
+  justify-content: center; /* Распределяем карточки по строке с промежутками */
+  gap: 24px;                 /* Расстояние между карточками */
+}
+

@@ -1,0 +1,66 @@
+<div class="auth-container">
+    <div class="auth-box">
+      <h2>Регистрация</h2>
+      
+      <div class="form-group">
+        <label for="username">Имя</label>
+        <input
+          type="text"
+          id="username"
+          [(ngModel)]="name"
+          placeholder="Введите имя"
+          required
+        />
+      </div>
+
+      <div class="form-group">
+        <label for="username">Email</label>
+        <input
+          type="text"
+          id="username"
+          [(ngModel)]="email"
+          placeholder="Введите почту"
+          required
+        />
+      </div>
+
+      <div class="form-group">
+          <label for="username">Логин</label>
+          <input
+            type="text"
+            id="username"
+            [(ngModel)]="login"
+            placeholder="Введите логин"
+            required
+          />
+        </div>
+  
+        <div class="form-group">
+          <label for="password">Пароль</label>
+          <input
+            type="password"
+            id="password"
+            [(ngModel)]="password"
+            placeholder="Введите пароль"
+            required
+          />
+        </div>
+  
+        <div class="form-group">
+          <label for="confirmPassword">Подтвердите пароль</label>
+          <input
+            type="password"
+            id="confirmPassword"
+            [(ngModel)]="confirmPassword"
+            placeholder="Повторите пароль"
+            required
+          />
+        </div>
+  
+        <button (click)="onRegister()" class="btn">Зарегистрироваться</button>
+        <p class="redirect">
+          Уже есть аккаунт? <a href="/login">Войдите</a>
+        </p>
+    </div>
+  </div>
+  

@@ -1,0 +1,29 @@
+
+<header class="header">
+  <div class="item">
+  <div class="logo-container">
+    <img class="logo-mini" src="assets/icons/sakura.svg">
+    <span class="text">Eastern Drama</span>
+  </div>
+</div>
+<div class="search-container">
+  <div class="search-bar">
+    <input type="text" id="searchInput" placeholder="Поиск">
+  </div>
+</div>
+<div class="item">
+  <button class="btn">
+    <img src="assets/icons/news.svg">
+  </button>
+  <button (click) = "goToRegister()" class="btn">
+    <img src="assets/icons/profile.svg">
+  </button>
+</div>
+</header>
+<router-outlet></router-outlet>
+
+<footer class="footer-content">
+  <p>Email: easterndrama&#64;gmail.com</p>
+  <p>Phone: +7 915 328 39 43</p>
+  <p>&copy; 2024 Eastern Drama.</p>
+</footer>
